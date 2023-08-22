@@ -1,0 +1,14 @@
+
+import java.util.Scanner;
+class A 
+{
+    public static void main(String[] args) 
+    {
+        System.out.println("All the Alphabets from A to Z : \n");
+        for(char i='A';i<='Z';i++)
+        {
+            System.out.println("\n"+i);
+        }
+        
+    }
+}
