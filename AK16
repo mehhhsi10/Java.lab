@@ -1,0 +1,9 @@
+public class A
+{
+int x=5;
+public static void main(String[] args)
+}
+A obj=new A()
+System.out.println(“ The value assigned is”+obj.x);
+}
+}
