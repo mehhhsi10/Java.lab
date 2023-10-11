@@ -1,0 +1,33 @@
+import java.util.Scanner
+public class Box
+{
+private int length;
+private int breadth;
+private int height;
+Box(int i, int b, int h)
+{
+this.length=l;
+this.breadth=b;
+this.height=h;
+}
+void getDimension()
+{
+System.out.println(“The length of box is”+length);
+System.out.println(“The breadth of box is”+breadth);
+System.out.println(“The height of box is”+height);
+}
+
+public static void main(String[] args)
+{
+Scanner s=new Scanner(System.in);
+System.out.println(“Enter the length of box: “);
+int length=s.nextInt();
+System.out.println(“Enter the breadth of box: “);
+int breadth=s.nextInt();
+System.out.println(“Enter the height of box: “);
+int height=s.nextInt();
+A c=new
+A(length,breadth,height);
+c.getDimension();
+}
+}
