@@ -1,0 +1,19 @@
+import java.util.Scanner
+public class C
+{
+Static int C;
+
+C(int i)
+{
+//setter x=i;
+}
+public static void get()
+{
+//getter System.out.println(x);
+}
+public static void main(String[] args)
+{
+C obj=new C(100);
+C.get();
+}
+}
