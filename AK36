@@ -1,0 +1,15 @@
+public class Main
+ {
+ 	public static void main(String[] args) 
+ 	{
+ 	    String s1="java";
+ 	    
+ 	     String s2="programming";
+ 	    
+ 	    s2=s1.substring(0,2);//0&1 index will be displaced...2 is excluded.
+ 	   
+ 	    System.out.println(s2);
+ 	}
+ }
+ 	    
+ 	    
