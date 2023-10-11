@@ -1,0 +1,21 @@
+public class A
+{
+boolean isOn;
+void switchOn()
+{
+isOn=true;
+System.out.println(isOn);
+}
+void switchOff()
+{
+isOn=false;
+System.out.println(isOn);
+}
+public void static main(String ar[])
+{
+A led = new A();
+A halogen = new A();
+led.switchOn();
+halogen.switchOff();
+}
+}
