@@ -1,0 +1,14 @@
+//to check immutability in string
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	    String first="java";//String is immutable(which can't b changed i.e. if we want to change hello to bye...we can't)
+	    String second="python";
+	    String third="javascript";
+	    String first="hello";//error
+		System.out.println(first);
+		System.out.println(second);
+		System.out.println(third);
+	}
+}
