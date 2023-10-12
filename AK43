@@ -1,0 +1,28 @@
+interface Sol
+{
+    public void Hello();
+    public void Welcome();
+    public void Getout();
+}
+public class A implements Sol
+{
+    public void Hello()
+    {
+        System.out.println("Hello");
+    }
+    public void Welocome()
+    {
+        System.out.println("Welcome");
+    }
+    public void Getout()
+    {
+        System.out.println("Get out");
+    }
+    public static void main(String args[])
+    {
+        A a=new A();
+        a.Hello();
+        a.Welcome();
+        a.Getout();
+    }
+}
