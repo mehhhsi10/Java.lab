@@ -1,0 +1,20 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class A
+{
+    A()
+    {
+        
+        this(3,4);
+        System.out.println("Def");
+    }
+    A(int a,int b)
+    {
+        System.out.println("Para");
+    }
+    public static void main(String []args)
+    {
+        A t=new A();
+    }
+}
