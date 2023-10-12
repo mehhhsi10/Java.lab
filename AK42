@@ -1,0 +1,69 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Auto
+{
+    public void start()
+    {
+        System.out.println("Hello");
+    }
+    public void stop()
+    {
+        System.out.println("Hello");
+    }
+     public void seating()
+    
+    
+}
+
+
+class Car extends Auto
+{
+    
+     public  void tyres()
+    {
+        System.out.println("Hello");
+    }
+     public  void fuel()
+    {
+        System.out.println("Hello");
+    } public  void fuel(String feul)
+    {
+        System.out.println("Hello");
+    } public  void seatings()
+    {
+        System.out.println("Hello");
+    }
+   
+}
+
+class Bike extends Auto
+{
+    
+     public  void tyres()
+    {
+        System.out.println("Hello");
+    }
+     public  void fuel()
+    {
+        System.out.println("Hello");
+    {
+       
+    } public void seatings()
+    {
+        System.out.println("Hello");
+    }
+   
+}
+}
+class Final
+{
+    public static void main(String args[])
+    {
+        Car t=new Car();
+        Bike t1=new Bike();
+        
+        t.tyre();
+        t1.fuel();
+    }
+}
