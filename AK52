@@ -1,0 +1,14 @@
+public class Test implements Runnable
+{
+    public void run()
+    {
+        System.out.println("The code is running in a thread");
+    }
+     public static void main(String args[])
+    {
+        Test t=new Test();
+        Thread t1=new Thread(t);
+        t1.start();
+        System.out.println("The code is not running in a thread");
+    }
+}
